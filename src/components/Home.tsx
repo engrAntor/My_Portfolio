@@ -18,12 +18,22 @@ export function Home() {
           Antor Chandra Das
         </h1>
 
-        <h2 className="text-2xl md:text-3xl font-semibold text-gray-700 dark:text-gray-300 mb-4">
-          AI Developer & Full-Stack Engineer
+        <h2 className="text-2xl md:text-3xl font-semibold mb-4">
+          <span className="bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600 bg-clip-text text-transparent">
+            AI Developer & Full-Stack Engineer
+          </span>
         </h2>
 
-        <p className="text-lg md:text-xl text-gray-600 dark:text-gray-400 mb-8 max-w-3xl mx-auto">
-          Passionate about leveraging Generative AI to create efficient, scalable systems. Specialized in Python/Django, .NET, Node.js, and modern web technologies.
+        <p className="text-lg md:text-xl mb-8 max-w-3xl mx-auto">
+          <span className="text-gray-700 dark:text-gray-300">Passionate about leveraging </span>
+          <span className="font-semibold bg-gradient-to-r from-cyan-500 to-blue-500 bg-clip-text text-transparent">Generative AI</span>
+          <span className="text-gray-700 dark:text-gray-300"> to create efficient, scalable systems. Specialized in </span>
+          <span className="font-semibold bg-gradient-to-r from-green-500 to-emerald-500 bg-clip-text text-transparent">Python/Django</span>
+          <span className="text-gray-700 dark:text-gray-300">, </span>
+          <span className="font-semibold bg-gradient-to-r from-purple-500 to-indigo-500 bg-clip-text text-transparent">.NET</span>
+          <span className="text-gray-700 dark:text-gray-300">, </span>
+          <span className="font-semibold bg-gradient-to-r from-yellow-500 to-orange-500 bg-clip-text text-transparent">Node.js</span>
+          <span className="text-gray-700 dark:text-gray-300">, and modern web technologies.</span>
         </p>
 
         <div className="flex flex-wrap justify-center gap-4 mb-8">
