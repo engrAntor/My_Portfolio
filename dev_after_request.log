@@ -1,0 +1,134 @@
+
+> professional-portfolio-website@0.1.0 dev
+> next dev
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3000
+
+ ✓ Starting...
+ ✓ Ready in 1375ms
+ ○ Compiling / ...
+ ⨯ src\app\layout.tsx
+An error occurred in `next/font`.
+
+Error: Cannot find module 'tailwindcss-animate'
+Require stack:
+- C:\engrAntor\postcss.config.js
+- C:\engrAntor\node_modules\next\dist\lib\find-config.js
+- C:\engrAntor\node_modules\next\dist\build\webpack\config\blocks\css\plugins.js
+- C:\engrAntor\node_modules\next\dist\build\webpack\config\blocks\css\index.js
+- C:\engrAntor\node_modules\next\dist\build\webpack\config\index.js
+- C:\engrAntor\node_modules\next\dist\build\webpack-config.js
+- C:\engrAntor\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- C:\engrAntor\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\engrAntor\node_modules\next\dist\server\lib\router-server.js
+- C:\engrAntor\node_modules\next\dist\server\lib\start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1383:15)
+    at C:\engrAntor\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1463:12)
+    at mod.require (C:\engrAntor\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at Object.<anonymous> (C:\engrAntor\postcss.config.js:75:23)
+    at Module._compile (node:internal/modules/cjs/loader:1706:14)
+    at Object..js (node:internal/modules/cjs/loader:1839:10)
+    at Module.load (node:internal/modules/cjs/loader:1441:32)
+    at Function._load (node:internal/modules/cjs/loader:1263:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1463:12)
+    at mod.require (C:\engrAntor\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at findConfig (C:\engrAntor\node_modules\next\dist\lib\find-config.js:87:24)
+    at async getPostCssPlugins (C:\engrAntor\node_modules\next\dist\build\webpack\config\blocks\css\plugins.js:89:18)
+    at async C:\engrAntor\node_modules\next\dist\build\webpack\config\blocks\css\index.js:124:36
+    at async C:\engrAntor\node_modules\next\dist\build\webpack\loaders\next-font-loader\index.js:86:33
+    at async Span.traceAsyncFn (C:\engrAntor\node_modules\next\dist\trace\trace.js:154:20)
+ ⨯ src\app\layout.tsx
+An error occurred in `next/font`.
+
+Error: Cannot find module 'tailwindcss-animate'
+Require stack:
+- C:\engrAntor\postcss.config.js
+- C:\engrAntor\node_modules\next\dist\lib\find-config.js
+- C:\engrAntor\node_modules\next\dist\build\webpack\config\blocks\css\plugins.js
+- C:\engrAntor\node_modules\next\dist\build\webpack\config\blocks\css\index.js
+- C:\engrAntor\node_modules\next\dist\build\webpack\config\index.js
+- C:\engrAntor\node_modules\next\dist\build\webpack-config.js
+- C:\engrAntor\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- C:\engrAntor\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\engrAntor\node_modules\next\dist\server\lib\router-server.js
+- C:\engrAntor\node_modules\next\dist\server\lib\start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1383:15)
+    at C:\engrAntor\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1463:12)
+    at mod.require (C:\engrAntor\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at Object.<anonymous> (C:\engrAntor\postcss.config.js:75:23)
+    at Module._compile (node:internal/modules/cjs/loader:1706:14)
+    at Object..js (node:internal/modules/cjs/loader:1839:10)
+    at Module.load (node:internal/modules/cjs/loader:1441:32)
+    at Function._load (node:internal/modules/cjs/loader:1263:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1463:12)
+    at mod.require (C:\engrAntor\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at findConfig (C:\engrAntor\node_modules\next\dist\lib\find-config.js:87:24)
+    at async getPostCssPlugins (C:\engrAntor\node_modules\next\dist\build\webpack\config\blocks\css\plugins.js:89:18)
+    at async C:\engrAntor\node_modules\next\dist\build\webpack\config\blocks\css\index.js:124:36
+    at async C:\engrAntor\node_modules\next\dist\build\webpack\loaders\next-font-loader\index.js:86:33
+    at async Span.traceAsyncFn (C:\engrAntor\node_modules\next\dist\trace\trace.js:154:20)
+ ⨯ src\app\layout.tsx
+An error occurred in `next/font`.
+
+Error: Cannot find module 'tailwindcss-animate'
+Require stack:
+- C:\engrAntor\postcss.config.js
+- C:\engrAntor\node_modules\next\dist\lib\find-config.js
+- C:\engrAntor\node_modules\next\dist\build\webpack\config\blocks\css\plugins.js
+- C:\engrAntor\node_modules\next\dist\build\webpack\config\blocks\css\index.js
+- C:\engrAntor\node_modules\next\dist\build\webpack\config\index.js
+- C:\engrAntor\node_modules\next\dist\build\webpack-config.js
+- C:\engrAntor\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- C:\engrAntor\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\engrAntor\node_modules\next\dist\server\lib\router-server.js
+- C:\engrAntor\node_modules\next\dist\server\lib\start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1383:15)
+    at C:\engrAntor\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1463:12)
+    at mod.require (C:\engrAntor\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at Object.<anonymous> (C:\engrAntor\postcss.config.js:75:23)
+    at Module._compile (node:internal/modules/cjs/loader:1706:14)
+    at Object..js (node:internal/modules/cjs/loader:1839:10)
+    at Module.load (node:internal/modules/cjs/loader:1441:32)
+    at Function._load (node:internal/modules/cjs/loader:1263:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1463:12)
+    at mod.require (C:\engrAntor\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at findConfig (C:\engrAntor\node_modules\next\dist\lib\find-config.js:87:24)
+    at async getPostCssPlugins (C:\engrAntor\node_modules\next\dist\build\webpack\config\blocks\css\plugins.js:89:18)
+    at async C:\engrAntor\node_modules\next\dist\build\webpack\config\blocks\css\index.js:124:36
+    at async C:\engrAntor\node_modules\next\dist\build\webpack\loaders\next-font-loader\index.js:86:33
+    at async Span.traceAsyncFn (C:\engrAntor\node_modules\next\dist\trace\trace.js:154:20)
+ HEAD / 500 in 6196ms
+ GET / 500 in 6411ms
+ GET / 500 in 60ms
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'C:\engrAntor\.next\cache\webpack\client-development-fallback\0.pack.gz_' -> 'C:\engrAntor\.next\cache\webpack\client-development-fallback\0.pack.gz'
