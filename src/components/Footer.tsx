@@ -102,7 +102,7 @@ export function Footer() {
             <Github size={20} />
           </a>
           <a
-            href="https://linkedin.com/in/engrAntor"
+            href="https://www.linkedin.com/in/engr-antor"
             target="_blank"
             rel="noopener noreferrer"
             className="w-10 h-10 bg-gray-100 dark:bg-gray-700 rounded-full flex items-center justify-center text-gray-700 dark:text-gray-300 hover:bg-blue-600 hover:text-white dark:hover:bg-blue-500 transition-all"

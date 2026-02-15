@@ -126,7 +126,7 @@ export function Contact() {
               </a>
 
               <a
-                href="https://linkedin.com/in/engrAntor"
+                href="https://www.linkedin.com/in/engr-antor"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors"

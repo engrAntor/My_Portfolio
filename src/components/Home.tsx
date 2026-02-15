@@ -37,7 +37,7 @@ export function Home() {
             GitHub
           </a>
           <a
-            href="https://linkedin.com/in/engrAntor"
+            href="https://www.linkedin.com/in/engr-antor"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 px-6 py-3 bg-blue-600 dark:bg-blue-500 text-white rounded-lg hover:bg-blue-700 dark:hover:bg-blue-600 transition-colors"
