@@ -14,7 +14,7 @@ export async function POST(req: Request) {
         }
 
         const genAI = new GoogleGenerativeAI(apiKey);
-        const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+        const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
 
         const knowledgeBase = {
             name: "Antor Chandra Das",
@@ -99,19 +99,32 @@ export async function POST(req: Request) {
       - He works at Sparktech IT LTD.
     `;
 
+        console.log('=== CHAT API DEBUG ===');
+        console.log('API Key present:', !!apiKey);
+        console.log('API Key length:', apiKey?.length);
+        console.log('Model:', "gemini-1.5-flash");
+        console.log('About to call generateContent...');
+
         const result = await model.generateContent(prompt);
         const response = await result.response;
         const text = response.text();
 
+        console.log('Response received successfully');
         return NextResponse.json({ response: text });
     } catch (error) {
-        console.error('CRITICAL ERROR in chat API:', error);
+        console.error('=== CRITICAL ERROR in chat API ===');
+        console.error('Error type:', typeof error);
+        console.error('Error:', error);
         if (error instanceof Error) {
+            console.error('Error name:', error.name);
             console.error('Error message:', error.message);
             console.error('Error stack:', error.stack);
         }
+        // Log the full error object
+        console.error('Full error object:', JSON.stringify(error, Object.getOwnPropertyNames(error), 2));
+
         return NextResponse.json(
-            { error: 'Failed to generate response', details: String(error) },
+            { error: 'Failed to generate response', details: error instanceof Error ? error.message : String(error) },
             { status: 500 }
         );
     }
