@@ -14,7 +14,7 @@ export function Home() {
           />
         </div>
 
-        <h1 className="text-5xl md:text-6xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+        <h1 className="text-5xl md:text-6xl font-bold mb-4 bg-gradient-to-r from-cyan-500 via-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent animate-gradient">
           Antor Chandra Das
         </h1>
 
