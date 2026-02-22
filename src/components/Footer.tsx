@@ -131,7 +131,7 @@ export function Footer() {
         {/* Copyright */}
         <div className="text-center">
           <p className="text-gray-600 dark:text-gray-400 text-sm flex items-center justify-center gap-1">
-            © {currentYear} Antor Chandra Das. Made with <Heart className="text-red-500" size={16} fill="currentColor" />
+            © {currentYear} Antor Chandra Das.
           </p>
         </div>
       </div>

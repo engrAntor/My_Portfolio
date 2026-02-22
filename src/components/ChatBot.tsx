@@ -94,7 +94,7 @@ export function ChatBot({ onClose }: { onClose: () => void }) {
   };
 
   return (
-    <div className="fixed bottom-24 right-6 w-96 max-w-[calc(100vw-3rem)] h-[600px] max-h-[calc(100vh-8rem)] bg-white dark:bg-gray-800 rounded-xl shadow-2xl flex flex-col z-50 transition-colors duration-300">
+    <div className="fixed bottom-[8.5rem] right-6 w-96 max-w-[calc(100vw-3rem)] h-[600px] max-h-[calc(100vh-10rem)] bg-white dark:bg-gray-800 rounded-xl shadow-2xl flex flex-col z-50 transition-colors duration-300">
       {/* Header */}
       <div className="bg-gradient-to-r from-blue-600 to-purple-600 dark:from-blue-500 dark:to-purple-500 text-white p-4 rounded-t-xl flex items-center justify-between">
         <div className="flex items-center gap-3">
@@ -102,8 +102,8 @@ export function ChatBot({ onClose }: { onClose: () => void }) {
             <Bot className="text-blue-600 dark:text-blue-500" size={24} />
           </div>
           <div>
-            <h3 className="font-bold">AI Assistant</h3>
-            <p className="text-xs text-blue-100">Powered by Gemini 2.5 Flash</p>
+            <h3 className="font-bold">Antor&apos;s Pet</h3>
+            <p className="text-xs text-blue-100">I am the AI assistant of Antor</p>
           </div>
         </div>
         <button

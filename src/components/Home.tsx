@@ -5,12 +5,12 @@ export function Home() {
     <div className="max-w-6xl mx-auto">
       {/* Hero Section */}
       <section className="text-center py-20">
-        <div className="mb-8 relative w-48 h-48 mx-auto">
-          <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full blur-lg opacity-50 animate-pulse"></div>
+        <div className="mb-8 relative w-52 h-64 mx-auto">
+          <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-600 rounded-2xl blur-lg opacity-50 animate-pulse"></div>
           <img
-            src="/profile-pic.png"
+            src="/antor-profile.jpeg"
             alt="Antor Chandra Das"
-            className="w-full h-full object-cover object-top rounded-full border-4 border-white dark:border-gray-800 shadow-2xl relative z-10"
+            className="w-full h-full object-cover object-top rounded-2xl border-4 border-white dark:border-gray-800 shadow-2xl relative z-10"
           />
         </div>
 
