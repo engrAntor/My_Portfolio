@@ -3,6 +3,23 @@ import { ExternalLink, Github, Code, Layers, Zap } from 'lucide-react';
 export function Projects() {
   const projects = [
     {
+      title: "POL Tracking Platform",
+      description: "Full-stack B2B marketplace for tracking and selling products before expiry with AI-powered recommendations.",
+      longDescription: "Full-stack POL inventory & B2B marketplace for tracking and selling products before expiry. Powered by React/Next.js 14, Tailwind CSS, TypeScript, Django REST Framework, PostgreSQL, Celery, Redis, Docker, FAISS RAG AI, n8n automation, Stripe payments, and JWT/OAuth2/OTP authentication.",
+      technologies: ["Next.js 14", "TypeScript", "Django REST", "PostgreSQL", "Redis", "Docker", "FAISS RAG AI", "Stripe"],
+      features: [
+        "B2B marketplace with expiry tracking",
+        "FAISS RAG AI recommendations",
+        "Stripe payment integration",
+        "JWT/OAuth2/OTP authentication",
+        "n8n workflow automation"
+      ],
+      category: "Full Stack",
+      image: "pol tracking",
+      github: "https://github.com/engrAntor/POL_TRACKING_PLATFORM",
+      demo: "https://aerovectranexus.com/"
+    },
+    {
       title: "Online Learning Platform",
       description: "Comprehensive Learning Management System with course management, payments, and AI chatbot.",
       longDescription: "Developed a comprehensive Learning Management System using React.js/Next.js, TypeScript, and Tailwind CSS, featuring a robust backend powered by Node.js/Nest.js and PostgreSQL/Supabase. The platform enables seamless course management, certificate generation, quizzes, course progress tracking, payments (Stripe, Mastercard, Bkash), user authentication, notifications, messaging, and an AI chatbot agent.",
@@ -20,6 +37,23 @@ export function Projects() {
       demo: "https://engrantorlms.netlify.app"
     },
     {
+      title: "Enterprise HRMS Platform",
+      description: "Angular 17 + .NET 9 HR management platform with Clean Architecture, JWT auth/RBAC, and automated payroll.",
+      longDescription: "Angular 17 + .NET 9 HRMS platform built on Clean Architecture with TypeScript, C#, EF Core 9, JWT auth/RBAC, Serilog logging, and Swagger/OpenAPI docs. Covers employee management, salary tracking, and automated payroll processing.",
+      technologies: ["Angular 17", ".NET 9", "TypeScript", "C#", "EF Core 9", "JWT", "Swagger"],
+      features: [
+        "Employee management & RBAC",
+        "Automated payroll processing",
+        "Salary tracking",
+        "Serilog structured logging",
+        "Swagger/OpenAPI documentation"
+      ],
+      category: "Enterprise",
+      image: "enterprise hrms",
+      github: "https://github.com/engrAntor/enterprise-hrms",
+      demo: null
+    },
+    {
       title: "Recipe Sharing Platform",
       description: "Full-stack social recipe platform with personalized news feed and recommendation engine.",
       longDescription: "Architected and developed a full-stack social recipe platform featuring a personalized news feed and recommendation engine. The backend is a secure, 3-tier ASP.NET Web API with JWT authentication, and the front end is a responsive UI built with Next.js, TypeScript, and Tailwind CSS.",
@@ -34,6 +68,74 @@ export function Projects() {
       category: "Full Stack",
       image: "recipe sharing",
       github: "https://github.com/engrAntor/Recipe-Sharing-Platform--.NET-Project/tree/main",
+      demo: null
+    },
+    {
+      title: "AI Powered API Testing Agent",
+      description: "Autonomous REST API security testing agent combining LLM reasoning with deterministic fuzzing to detect IDOR, auth flaws, and logic bugs.",
+      longDescription: "Autonomous REST API security testing agent built with Python 3.11+, Schemathesis v4, LangChain, Google Gemini 2.0 Flash, httpx, Pydantic, Typer, jsonschema, and OpenAPI. Combines 12 deterministic probe suites, property-based OpenAPI fuzzing, and LLM reasoning to detect IDOR, auth flaws, and logic bugs with schema-validated report.json outputs.",
+      technologies: ["Python", "LangChain", "Gemini 2.0 Flash", "Schemathesis", "OpenAPI", "httpx", "Pydantic"],
+      features: [
+        "12 deterministic security probe suites",
+        "Property-based OpenAPI fuzzing",
+        "LLM reasoning with Gemini 2.0 Flash",
+        "Detects IDOR, auth flaws & logic bugs",
+        "Schema-validated JSON reports"
+      ],
+      category: "AI & Security",
+      image: "api testing agent",
+      github: "https://github.com/engrAntor/ai-powered-api-testing-agent",
+      demo: null
+    },
+    {
+      title: "Online Learning Platform (SQAT)",
+      description: "Software Quality Assurance project with Selenium WebDriver and rigorous testing.",
+      longDescription: "Developed a comprehensive Software Test Plan utilizing Selenium WebDriver and structured QA methodologies to validate system requirements. Implemented rigorous boundary value analysis and performance criteria to ensure platform reliability and adherence to industry standards.",
+      technologies: ["Selenium WebDriver", "QA automation", "Testing", "Java", "Bug Tracking"],
+      features: [
+        "Automated testing with Selenium",
+        "Structured QA methodologies",
+        "Boundary value analysis",
+        "Performance testing",
+        "Test plan development"
+      ],
+      category: "Testing",
+      image: "sqat",
+      github: "https://github.com/engrAntor/Software-Quality-Assurance-and-testing",
+      demo: null
+    },
+    {
+      title: "School Registration System",
+      description: "High-concurrency, first-come-first-served school admission system with race-condition safety and 27 automated tests.",
+      longDescription: "A high-concurrency, first-come-first-served school admission system built with .NET 9 Clean Architecture, Next.js 16, and PostgreSQL. Race-condition safe via SELECT … FOR UPDATE. Fully Dockerized with 27 automated tests covering core admission workflows.",
+      technologies: [".NET 9", "Next.js", "TypeScript", "PostgreSQL", "Docker", "Clean Architecture"],
+      features: [
+        "Race-condition safe with SELECT FOR UPDATE",
+        "First-come-first-served admission logic",
+        "27 automated tests",
+        "Fully Dockerized deployment",
+        "Clean Architecture pattern"
+      ],
+      category: "Full Stack",
+      image: "school registration",
+      github: "https://github.com/engrAntor/School-Registration-System",
+      demo: null
+    },
+    {
+      title: "ChitChat Messenger",
+      description: "Real-time 1-on-1 and group chat application built with Next.js and Socket.io.",
+      longDescription: "Real-time chat application built with Next.js, Socket.io, TypeScript, and Tailwind CSS. A feature-rich messaging platform supporting 1-on-1 and group conversations, production-ready with a built-in product showcase landing page.",
+      technologies: ["Next.js", "Socket.io", "TypeScript", "Tailwind CSS"],
+      features: [
+        "Real-time messaging with Socket.io",
+        "1-on-1 and group conversations",
+        "Production-ready architecture",
+        "Built-in product showcase landing page",
+        "Responsive UI"
+      ],
+      category: "Full Stack",
+      image: "chitchat messenger",
+      github: "https://github.com/engrAntor/chitchat-messenger",
       demo: null
     },
     {
@@ -86,23 +188,6 @@ export function Projects() {
       image: "car parking",
       github: "https://github.com/engrAntor/Software-Engineering",
       demo: null
-    },
-    {
-      title: "Online Learning Platform (SQAT)",
-      description: "Software Quality Assurance project with Selenium WebDriver and rigorous testing.",
-      longDescription: "Developed a comprehensive Software Test Plan utilizing Selenium WebDriver and structured QA methodologies to validate system requirements. Implemented rigorous boundary value analysis and performance criteria to ensure platform reliability and adherence to industry standards.",
-      technologies: ["Selenium WebDriver", "QA automation", "Testing", "Java", "Bug Tracking"],
-      features: [
-        "Automated testing with Selenium",
-        "Structured QA methodologies",
-        "Boundary value analysis",
-        "Performance testing",
-        "Test plan development"
-      ],
-      category: "Testing",
-      image: "sqat",
-      github: "https://github.com/engrAntor/Software-Quality-Assurance-and-testing",
-      demo: null
     }
   ];
 
@@ -114,7 +199,8 @@ export function Projects() {
       "Database": "from-orange-500 to-red-500",
       "Enterprise": "from-indigo-500 to-violet-500",
       "Research": "from-pink-500 to-rose-500",
-      "Testing": "from-teal-500 to-cyan-500"
+      "Testing": "from-teal-500 to-cyan-500",
+      "AI & Security": "from-red-500 to-orange-500"
     };
     return colors[category] || "from-gray-500 to-gray-700";
   };

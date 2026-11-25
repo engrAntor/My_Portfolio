@@ -1,4 +1,4 @@
-import { Code, Server, Database, Wrench, Brain, Palette } from 'lucide-react';
+import { Code, Server, Database, Wrench, Brain, Palette, Cloud } from 'lucide-react';
 
 export function Skills() {
   const skillCategories = [
@@ -9,34 +9,40 @@ export function Skills() {
       skills: ["Python", "C++", "C#", "Java", "JavaScript (ES6+)", "TypeScript", "PHP"]
     },
     {
+      title: "Automation & AI",
+      icon: Brain,
+      color: "orange",
+      skills: ["n8n", "Generative AI", "Fine-Tuning", "LLM Integration", "MLOps", "TensorFlow", "PyTorch", "LangChain", "RAG", "FAISS", "Data Scraping", "NumPy"]
+    },
+    {
+      title: "Cloud & DevOps",
+      icon: Cloud,
+      color: "teal",
+      skills: ["AWS", "Azure", "CI/CD", "Docker", "Git", "GitHub"]
+    },
+    {
       title: "Backend & Frameworks",
       icon: Server,
       color: "purple",
-      skills: ["Django(Rest API, Fast API)", "ASP.NET", ".NET Framework", "Node.js", "Nest.js", "Entity Framework", "LINQ", "SQLAlchemy"]
+      skills: ["Django REST Framework", "FastAPI", "Celery", "ASP.NET Core", "Entity Framework Core", "LINQ", "Node.js (Nest.js)", "TypeORM", "BullMQ"]
     },
     {
       title: "Frontend Technologies",
       icon: Palette,
       color: "pink",
-      skills: ["React.js", "Next.js", "Redux", "Tailwind CSS", "Material UI", "shadcn/ui", "DaisyUI", "HTML5", "CSS3"]
+      skills: ["React.js", "Next.js", "Redux", "Vue.js", "Angular.js", "Tailwind CSS", "Material UI", "shadcn/ui", "DaisyUI", "HTML5", "CSS3"]
     },
     {
       title: "Databases",
       icon: Database,
       color: "green",
-      skills: ["Microsoft SQL Server", "PostgreSQL", "MySQL", "Oracle SQL", "PL/SQL", "SQLite"]
-    },
-    {
-      title: "AI & Machine Learning",
-      icon: Brain,
-      color: "orange",
-      skills: ["Generative AI", "LLM Integration", "n8n automation", "RAG", "FAISS", "Data Structures", "Algorithms"]
+      skills: ["Microsoft SQL Server", "PostgreSQL", "MySQL", "Oracle SQL", "PL/SQL", "SQLite", "SQLAlchemy", "Redis (Caching & Message Broker)"]
     },
     {
       title: "Tools & Environment",
       icon: Wrench,
       color: "indigo",
-      skills: ["Git", "GitHub", "Postman", "Jira", "Visual Studio", "VS Code", "IntelliJ IDEA", "PgAdmin", "Figma", "Docker"]
+      skills: ["Postman", "Git", "GitHub", "Docker", "Visual Studio", "VS Code", "IntelliJ IDEA", "PgAdmin", "Figma", "Jira"]
     }
   ];
 
@@ -47,7 +53,8 @@ export function Skills() {
       pink: { text: 'text-pink-600', iconBg: 'bg-pink-100', skillBg: 'bg-pink-50 dark:bg-pink-900/30', skillBorder: 'border-pink-200 dark:border-pink-800' },
       green: { text: 'text-green-600', iconBg: 'bg-green-100', skillBg: 'bg-green-50 dark:bg-green-900/30', skillBorder: 'border-green-200 dark:border-green-800' },
       orange: { text: 'text-orange-600', iconBg: 'bg-orange-100', skillBg: 'bg-orange-50 dark:bg-orange-900/30', skillBorder: 'border-orange-200 dark:border-orange-800' },
-      indigo: { text: 'text-indigo-600', iconBg: 'bg-indigo-100', skillBg: 'bg-indigo-50 dark:bg-indigo-900/30', skillBorder: 'border-indigo-200 dark:border-indigo-800' }
+      indigo: { text: 'text-indigo-600', iconBg: 'bg-indigo-100', skillBg: 'bg-indigo-50 dark:bg-indigo-900/30', skillBorder: 'border-indigo-200 dark:border-indigo-800' },
+      teal: { text: 'text-teal-600', iconBg: 'bg-teal-100', skillBg: 'bg-teal-50 dark:bg-teal-900/30', skillBorder: 'border-teal-200 dark:border-teal-800' }
     };
     return colors[color] || colors.blue;
   };
@@ -101,12 +108,12 @@ export function Skills() {
             <p className="text-blue-100">Programming Languages</p>
           </div>
           <div>
-            <p className="text-4xl font-bold mb-2">15+</p>
+            <p className="text-4xl font-bold mb-2">30+</p>
             <p className="text-blue-100">Frameworks & Libraries</p>
           </div>
           <div>
-            <p className="text-4xl font-bold mb-2">10+</p>
-            <p className="text-blue-100">Development Tools</p>
+            <p className="text-4xl font-bold mb-2">12+</p>
+            <p className="text-blue-100">AI & Cloud Tools</p>
           </div>
         </div>
       </div>
