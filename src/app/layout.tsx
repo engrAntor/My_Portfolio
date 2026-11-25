@@ -26,7 +26,7 @@ export default function RootLayout({
           <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100 dark:from-gray-900 dark:to-gray-800 transition-colors duration-300 flex flex-col relative z-0">
             <Background3D />
             <Navigation />
-            <main className="container mx-auto px-4 py-8 flex-1 relative z-10">
+            <main className="container mx-auto px-4 pt-2 pb-8 flex-1 relative z-10">
               {children}
             </main>
             <Footer />

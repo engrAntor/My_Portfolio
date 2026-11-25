@@ -50,7 +50,7 @@ export function Home() {
   return (
     <div className="max-w-6xl mx-auto">
       {/* Hero Section */}
-      <section className="text-center pt-4 pb-12">
+      <section className="text-center pt-0 pb-12">
         <div className="mb-8 relative w-52 h-64 mx-auto">
           <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-600 rounded-2xl blur-lg opacity-50 animate-pulse"></div>
           <img
