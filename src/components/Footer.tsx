@@ -59,7 +59,7 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <a href="#resume" className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors text-sm">
+                <a href="/Das_CV.pdf" download="Das_CV.pdf" className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors text-sm">
                   Download CV
                 </a>
               </li>

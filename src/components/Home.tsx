@@ -126,10 +126,14 @@ export function Home() {
             <Mail size={20} />
             Official Email
           </a>
-          <button className="flex items-center gap-2 px-6 py-3 bg-green-600 dark:bg-green-500 text-white rounded-lg hover:bg-green-700 dark:hover:bg-green-600 transition-colors">
+          <a
+            href="/Das_CV.pdf"
+            download="Das_CV.pdf"
+            className="flex items-center gap-2 px-6 py-3 bg-green-600 dark:bg-green-500 text-white rounded-lg hover:bg-green-700 dark:hover:bg-green-600 transition-colors"
+          >
             <Download size={20} />
             Download CV
-          </button>
+          </a>
         </div>
 
         {/* Quick Stats Bar */}
